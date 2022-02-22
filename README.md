@@ -1,8 +1,5 @@
 # Java Projek vom Modul Algorithemen und Datensturkturen
 
-GitLab: [![Pipeline status](https://intern-gitlab.enterpriselab.ch/oop/oop_maven_template/badges/develop/pipeline.svg)](https://intern-gitlab.enterpriselab.ch/oop/oop_maven_template/-/pipelines)
-Jenkins: [![Build Status](https://jenkins-global.el.eee.intern/jenkins/buildStatus/icon?job=oop_maven_template-develop)](https://jenkins-global.el.eee.intern/jenkins/view/1-OOP/job/oop_maven_template-develop/)
-
 ## Zweck
 Dieses Projekt dient dem Modul AD an der HSLU.
 
