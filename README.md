@@ -1,7 +1,7 @@
-# Java Projek vom Modul Algorithemen und Datensturkturen
+# Modul Algorithemen und Datensturkturen
 
 ## Zweck
-Dieses Projekt dient dem Modul AD an der HSLU.
+Dieses Projekt dient dem Modul AD an der HSLU und ist in der Sprache Java geschrieben.
 
 ## Enhaltene Libraries (Dependencies)
 * JUnit 5 - https://junit.org/junit5/
