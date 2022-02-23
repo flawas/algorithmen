@@ -17,11 +17,14 @@ public class ggtRekursiv {
     
     public static int ggtRekursiv(final int a, final int b) {
         if (a > b) {
+            LOGGER.info("if Schleife");
             return ggtRekursiv(a - b, b);
         } else {
             if (a < b) {
+                LOGGER.info("else if Schleife");
                 return ggtRekursiv(a, b - a);
             } else {
+                LOGGER.info("else Schleife");
                 return a;
             }
         }
