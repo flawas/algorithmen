@@ -11,9 +11,9 @@ import org.apache.logging.log4j.Logger;
  *
  * @author flaviowaser
  */
-public class task {
+public class Task {
     
-    private static final Logger LOGGER = LogManager.getLogger(ggtRekursiv.class);
+    private static final Logger LOGGER = LogManager.getLogger(GgtRekursiv.class);
 
     public static void task (final int n) {
         task1();

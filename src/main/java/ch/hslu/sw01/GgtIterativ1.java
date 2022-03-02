@@ -11,9 +11,9 @@ import org.apache.logging.log4j.Logger;
  *
  * @author flaviowaser
  */
-public class ggtIterativ1 {
+public class GgtIterativ1 {
     
-    private static final Logger LOGGER = LogManager.getLogger(ggtIterativ1.class);
+    private static final Logger LOGGER = LogManager.getLogger(GgtIterativ1.class);
     
     public static int ggtIterativ1(int a, int b) {
         while (a != b) {

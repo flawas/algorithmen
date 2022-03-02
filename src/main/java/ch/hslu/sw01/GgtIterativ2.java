@@ -11,30 +11,28 @@ import org.apache.logging.log4j.Logger;
  *
  * @author flaviowaser
  */
-public class ggtRekursiv {
+public class GgtIterativ2 {
 
-    private static final Logger LOGGER = LogManager.getLogger(ggtRekursiv.class);
+    private static final Logger LOGGER = LogManager.getLogger(GgtIterativ2.class);
     
-    public static int ggtRekursiv(final int a, final int b) {
-        if (a > b) {
-            LOGGER.info("if Schleife");
-            return ggtRekursiv(a - b, b);
-        } else {
-            if (a < b) {
-                LOGGER.info("else if Schleife");
-                return ggtRekursiv(a, b - a);
+    public static int ggtIterativ2(int a, int b) {
+        while ((a != 0) && (b != 0 )) {
+            if (a > b) {
+                a = a % b;
+                LOGGER.info("if Schleife");
             } else {
+                b = b % a;
                 LOGGER.info("else Schleife");
-                return a;
             }
         }
+        return a + b;
     }
      /**
      * Main-Methode.
      * @param args Startargumente.
      */
     public static void main(final String[] args) {
-        LOGGER.info(ggtRekursiv(16, 68));
+        LOGGER.info(ggtIterativ2(16, 68));
         
     } 
 }

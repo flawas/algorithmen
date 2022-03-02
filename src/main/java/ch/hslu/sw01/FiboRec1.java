@@ -11,9 +11,9 @@ import org.apache.logging.log4j.Logger;
  *
  * @author flaviowaser
  */
-public class fiboRec1 {
+public class FiboRec1 {
     
-    private static final Logger LOGGER = LogManager.getLogger(ggtIterativ1.class);
+    private static final Logger LOGGER = LogManager.getLogger(GgtIterativ1.class);
 
     public static int fiboRec1(int n) {
         if (n == 0) {
@@ -22,13 +22,11 @@ public class fiboRec1 {
         } else if (n == 1) {
             LOGGER.debug("0 will be returned");
             return 1;
-        } else if (n >= 2) {
+        } else {
             LOGGER.info("n is taller than 2");
             n = fiboRec1(n - 2) + fiboRec1(n - 1);
             LOGGER.debug("Actual n is " + n);
-        } else {
-
-        }
+        } 
         LOGGER.debug("Returning value of n is " + n);
         return n;
         
