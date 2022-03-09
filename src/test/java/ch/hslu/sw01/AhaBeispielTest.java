@@ -4,8 +4,8 @@
  */
 package ch.hslu.sw01;
 
-import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 /**
  *
@@ -18,7 +18,7 @@ public class AhaBeispielTest {
 
     @Test
     public void testTask10() {
-        Assertions.assertEquals(9, AhaBeispiel.task(10, true));
+        Assertions.assertEquals(234, AhaBeispiel.task(10, true));
     }
     
     @Test

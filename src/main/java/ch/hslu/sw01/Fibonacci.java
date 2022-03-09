@@ -14,30 +14,28 @@ import java.util.Map;
 public class Fibonacci {
     private static Map<Integer,Integer> fibonacciNumbers = new HashMap<Integer, Integer>();
     
-    public static int ficoRec1(int n) {
+    public static int ficoRec1(final int n) {
         //Rekursionsbasis
-        if (n == 0){
-            return 0;
-        } else if(n == 1) {
-           return 1;
-        } else {
+        if (n <= 1){
+            return n;
+        } 
+        else {
             //Rekursivvorschrift
             return ficoRec1(n - 1) + ficoRec1(n - 2);
         }
     }
     
-    public static int fiboRec2(int n){
+    private static final int[] FIBO = new int[1000];
+    
+    public static int fiboRec2(final int n){
         //Rekursionsbasis
-        if (n == 0){
-            return 0;
-        } else if (n == 1){
-            return 1;
-        } else if (fibonacciNumbers.get(n) != 0) {
-            return fibonacciNumbers.get(n);
+        if (FIBO[n] != 0){
+            return FIBO[n];
+        } else if (n <= 1){
+            return FIBO[n];
         } else {
-            int fibonacci = fiboRec2(n - 1) + fiboRec2(n - 2);
-            fibonacciNumbers.put(n, fibonacci);
-            return fibonacci;
+            FIBO[n] = fiboRec2(n - 2) + fiboRec2(n - 1);
+            return FIBO[n];
         }
     }
     

@@ -4,8 +4,8 @@
  */
 package ch.hslu.sw01;
 
-import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 /**
  *
@@ -14,17 +14,16 @@ import org.junit.jupiter.api.Assertions;
 public class FibonacciTest {
     
     public FibonacciTest() {
-         
     }
-
+    
     @Test
     public void testFibonacciTestRec1() {
-        Assertions.assertEquals(8, Fibonacci.ficoRec1(7));
+        Assertions.assertEquals(1, Fibonacci.ficoRec1(1));
     }
     
     @Test
     public void testFibonacciTestRec2(){
-        Assertions.assertEquals(8, Fibonacci.ficoRec1(7));
+        Assertions.assertEquals(13, Fibonacci.ficoRec1(7));
     }
     
 }

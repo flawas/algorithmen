@@ -4,6 +4,7 @@
  */
 package ch.hslu.sw02;
 
+import ch.hslu.sw02.list.SimpleList;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
