@@ -9,7 +9,7 @@ import java.util.Map;
 
 /**
  *
- * @author flaviowaser
+ * @author Flavio Waser
  */
 public class Fibonacci {
     private static Map<Integer,Integer> fibonacciNumbers = new HashMap<Integer, Integer>();

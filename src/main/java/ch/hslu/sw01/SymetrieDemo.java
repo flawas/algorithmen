@@ -6,7 +6,7 @@ package ch.hslu.sw01;
 
 /**
  *
- * @author flaviowaser
+ * @author Flavio Waser
  */
 public class SymetrieDemo {
     

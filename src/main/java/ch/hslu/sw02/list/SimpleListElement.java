@@ -6,7 +6,7 @@ package ch.hslu.sw02.list;
 
 /**
  *
- * @author flaviowaser
+ * @author Flavio Waser
  */
 public class SimpleListElement {
     
