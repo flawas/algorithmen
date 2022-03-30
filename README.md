@@ -1,18 +1,20 @@
-# Modul Algorithemen und Datensturkturen
+# Java Projekt für AD Exercises
 
-## Zweck
-Dieses Projekt dient dem Modul AD an der HSLU und ist in der Sprache Java geschrieben.
+## Gelöste Aufgaben
+* **SW00** - Demo Klasse
+* **SW01** - Übung: AhaBeispiel aus den Folien, Fibonacci, SymetrieDemo
+* **SW02** - Übung: Arraysringbuffer, ArrayStack List, Queue
+* **SW03** - Übung: Bäume, Binärbäume und Suchbäume
 
 ## Enhaltene Libraries (Dependencies)
-* JUnit 5 - https://junit.org/junit5/
-* JUnit Pioneer - https://junit-pioneer.org/
-* AssertJ - https://assertj.github.io/doc/
-* EqualsVerifier - https://jqno.nl/equalsverifier/
-* Logging Framework - https://logging.apache.org/log4j/2.x/
-* MutabilityDetector - https://github.com/MutabilityDetector/MutabilityDetector
+* Logging Framework - http://logging.apache.org/log4j/2.x/
+* JUnit - http://junit.org/junit4/
+* AssertJ - http://joel-costigliola.github.io/assertj/
+* EqualsVerifier - http://jqno.nl/equalsverifier/
+* MutabilityDetector - http://mutabilitydetector.org/
 
 ## Integrierte Analysewerkzeuge
-* Checkstyle - https://checkstyle.sourceforge.io/
+* Checkstyle - http://checkstyle.sourceforge.net/
+* Findbugs - http://findbugs.sourceforge.net/
 * PMD - https://pmd.github.io/
-* JaCoCo - https://www.eclemma.org/jacoco/
-* Spotbugs - https://spotbugs.github.io/
+* JaCoCo - http://www.eclemma.org/jacoco/
