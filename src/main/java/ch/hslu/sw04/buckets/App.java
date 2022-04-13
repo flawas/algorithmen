@@ -17,7 +17,6 @@ import org.apache.logging.log4j.Logger;
 public class App {
 
     private static final Logger LOGGER = LogManager.getLogger(App.class);
-
     /**
      * Privater Konstruktor.
      */
